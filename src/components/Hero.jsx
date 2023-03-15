@@ -10,11 +10,11 @@ const Hero = () => {
 
       <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
         <div className='md:left-[10%] max-w-[1100px] mx-auto absolute p-4'>
-          <p>All Inclusive</p>
+          <p className='font-bold'>All Inclusive</p>
           <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl'>Explore Cox's Bazar Sea Beach</h1>
           <p className='mx-w-[600px] drop-shadow-2xl text-xl my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sunt id repellat reprehenderit iste praesentium repudiandae at eveniet dignissimos vel?</p>
 
-          <button className='text-lg font-semibold hover:bg-slate-700 hover:border-0'>Reserve Now</button>
+          <button className='text-lg font-semibold hover:bg-cyan-800 hover:border-1 hover:border-cyan-800'>Reserve Now</button>
         </div>
       </div>
 
